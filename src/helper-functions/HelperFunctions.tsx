@@ -1,4 +1,4 @@
-import {PROMPTER_WIDTH} from "../constants/Constants.ts";
+import {PROMPTER_WIDTH} from "../constants/Constants";
 import React from "react"
 
 export const calculateShouldInsertBreakline = (spanWidth: number, accumulatedSpanWidth: React.MutableRefObject<number>, id: number) => {

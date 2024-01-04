@@ -1,6 +1,6 @@
 import React, {useEffect, useRef} from "react"
-import {useGetBreaklines, useUpdateBreaklines} from '../contexts/ContextAccessFunctions.ts'
-import {calculateShouldInsertBreakline} from "../helper-functions/HelperFunctions.tsx";
+import {useGetBreaklines, useUpdateBreaklines} from '../contexts/ContextAccessFunctions'
+import {calculateShouldInsertBreakline} from "../helper-functions/HelperFunctions";
 
 const useGetBreaklineFlagForSpan = (
     currentSpanRef: React.MutableRefObject<HTMLSpanElement | null>,

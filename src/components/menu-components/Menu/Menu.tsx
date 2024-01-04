@@ -1,10 +1,10 @@
-import TextInput from "../TextInput/TextInput.tsx"
-import PlayButton from "../PlayButton/PlayButton.tsx"
+import TextInput from "../TextInput/TextInput"
+import PlayButton from "../PlayButton/PlayButton"
 import { useState } from "react"
 import "./styles/MenuStyle.css"
-import { useUpdateWords } from "../../../contexts/ContextAccessFunctions.ts"
-import { useUpdateBreaklines } from "../../../contexts/ContextAccessFunctions.ts"
-import useGetWordsAndBreaklines from "../../../hooks/useGetWordsAndBreaklines.tsx"
+import { useUpdateWords } from "../../../contexts/ContextAccessFunctions"
+import { useUpdateBreaklines } from "../../../contexts/ContextAccessFunctions"
+import useGetWordsAndBreaklines from "../../../hooks/useGetWordsAndBreaklines"
 
 interface WordData {
     english: string[]

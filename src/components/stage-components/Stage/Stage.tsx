@@ -2,7 +2,7 @@ import Blurr from "../Blur/Blur"
 import VideoPlayer from "../VideoPlayer/VideoPlayer"
 import Prompter from "../Prompter/Prompter"
 import Footer from "../Footer/Footer"
-import { useWords } from "../../../contexts/ContextAccessFunctions.ts"
+import { useWords } from "../../../contexts/ContextAccessFunctions"
 import "./styles/StageStyle.css"
 
 export default function Stage() {
