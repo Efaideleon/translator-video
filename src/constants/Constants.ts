@@ -1,0 +1,1 @@
+export const PROMPTER_WIDTH = 900
